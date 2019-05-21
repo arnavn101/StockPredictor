@@ -1,0 +1,2 @@
+# StockPredictor
+Predicts stocks
