@@ -1,0 +1,119 @@
+<div>
+        <form action = "http://localhost:12345/result" method = "POST">
+               
+    <div>
+ 
+                <center> <p style = "font-size:30px; font-family:calibri;" <label for="empId2">Date of Application</label>
+                
+                <select type="text" value="" name="Date_of_Application"> </center>
+            
+      <option value="Jan">Jan</option>
+      <option value="Feb">Feb</option>
+      <option value="Mar">Mar</option>
+      <option value="Apr">Apr</option>
+      <option value="May">May</option>
+      <option value="Jun">Jun</option>
+      <option value="July">July</option>
+      <option value="Aug">Aug</option>
+      <option value="Sep">Sep</option>
+      <option value="Oct">Oct</option>
+      <option value="Nov">Nov</option>
+      <option value="Dec">Dec</option>
+
+        </select>
+            </div>
+
+            <div>
+              <center><p style = "font-size:30px;font-family:calibri;" 
+                <label for="empId3">Field</label>
+                <select type="text" value="" name="Field"> 
+            </center>
+            <option value="CS">CS</option>
+          <option value="Others">Others</option>
+          <option value="CE">CE</option>
+          <option value="EE">EE</option>
+          <option value="SE">SE</option>
+         </select>
+    
+            </div>
+
+
+        <div>
+          <center><p style = "font-size:30px;font-family:calibri;"
+                <label for="empId4">SAT Score:</label>
+                <input type="text" name="SAT_score" id="empId"><br>
+    </center>
+            </div>
+
+
+         <div>
+          <center> <p style = "font-size:30px;font-family:calibri;"
+                <label for="empId5">GRE Score:</label>
+                <input type="text" name="GRE_score" id="empId2"><br>
+         </center>
+            </div>
+
+             <div>
+              <center> <p style = "font-size:30px;font-family:calibri;"
+                <label for="empId6">AWA Score:</label>
+                <input type="text" name="AWA_score" id="empId3"><br>
+              </center>
+            </div>
+
+
+            <div>
+              <center> <p style = "font-size:30px;font-family:calibri;"
+                <label for="empId7">TOEFL Score:</label>
+                <input type="text" name="TOEFL_score" id="empId4"><br>
+              </center>
+            </div>
+
+            <div>
+              <center><p style = "font-size:30px;font-family:calibri;"
+                <label for="empId8">IELTS Score:</label>
+                <input type="text" name="IELTS_score" id="empId5"><br>
+              </center>
+            </div>
+
+             <div>
+              <center> <p style = "font-size:30px;font-family:calibri;"
+                <label for="empId9">Work Experience:</label>
+                <input type="text" name="Work_experience" id="empId6"><br>
+              </center>
+            </div>
+
+
+            <div>
+              <center> <p style = "font-size:30px;font-family:calibri;"
+                <label for="empId10">International Papers:</label>
+                <input type="text" name="International_papers" id="empId7"><br>
+                </center>
+            </div>
+
+              <div>
+                <center> <p style = "font-size:30px;font-family:calibri;"
+                <label for="empId11">Undergraduate Loan:</label>
+                <input type="text" name="undergraduate_loan" id="empId8"><br>
+                </center>
+            </div>
+
+            <div>
+              <center> <p style = "font-size:30px;font-family:calibri;"
+                <label for="empId12">International or not:</label>
+                <input type="text" name="int_or_not" id="empId9"><br>
+              </center>
+            </div>
+
+            <div>
+              <center> <p style = "font-size:30px;font-family:calibri;"
+                <label for="empId13">Grade Percentage:</label>
+                <input type="text" name="id" id="empId10"><br>
+              </center>
+            </div>
+
+            <div>
+          <center> <button style="font-size:25px;background-color:lightblue;color:black; height: 50px; width: 500px" type="submit" id="empFormSubmitBtn" onclick="">Press To Find Out!</button></center>
+
+            </div>
+        </form>
+    </div>
