@@ -22,8 +22,8 @@ def result():
       code = rnn_predict(days)
       return code
       """
-      from ann2_predict import ann2_predict
-      code =  ann2_predict(doa, field, sat, gre, awa, toefl,ielts,experience,loan,papers,inter,grade) 
-      return code + render_template('results.html')"""
+    code + render_template('results.html')
+      """
+      
 if __name__ == '__main__':
    app.run(host='127.0.0.1',port=12345)
