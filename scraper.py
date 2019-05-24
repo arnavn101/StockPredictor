@@ -25,8 +25,10 @@ def scrape_web(stock):
                                  'begins_at': 'Date'}, inplace=True)
     df.set_index('date', inplace=True)
     df.head()
-    import os
-    os.remove("stocks.csv")
+    try:
+        import os
+        os.remove("stocks.csv")
+    except Exception:
+        pass
 
     df.to_csv('stocks.csv')
-
