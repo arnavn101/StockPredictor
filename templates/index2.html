@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                background-color: black;
+            }
+            #top_header {
+                color: blue;
+           }  
+            .label {
+                color:yellow;
+                top:40%;
+            } 
+            .input {
+                top: 40%;
+            }
+            .myButton {
+                background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #b8b8b8), color-stop(1, #ff0000));
+                background:-moz-linear-gradient(top, #b8b8b8 5%, #ff0000 100%);
+                background:-webkit-linear-gradient(top, #b8b8b8 5%, #ff0000 100%);
+                background:-o-linear-gradient(top, #b8b8b8 5%, #ff0000 100%);
+                background:-ms-linear-gradient(top, #b8b8b8 5%, #ff0000 100%);
+                background:linear-gradient(to bottom, #b8b8b8 5%, #ff0000 100%);
+                filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#b8b8b8', endColorstr='#ff0000',GradientType=0);
+                background-color:#b8b8b8;
+                -moz-border-radius:28px;
+                -webkit-border-radius:28px;
+                border-radius:28px;
+                border:1px solid #000000;
+                display:inline-block;
+                cursor:pointer;
+                color:#000000;
+                font-family:Arial;
+                font-size:17px;
+                padding:16px 31px;
+                text-decoration:none;
+                text-shadow:0px 1px 0px #ffffff;
+
+            }
+            .myButton:hover {
+                background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ff0000), color-stop(1, #b8b8b8));
+                background:-moz-linear-gradient(top, #ff0000 5%, #b8b8b8 100%);
+                background:-webkit-linear-gradient(top, #ff0000 5%, #b8b8b8 100%);
+                background:-o-linear-gradient(top, #ff0000 5%, #b8b8b8 100%);
+                background:-ms-linear-gradient(top, #ff0000 5%, #b8b8b8 100%);
+                background:linear-gradient(to bottom, #ff0000 5%, #b8b8b8 100%);
+                filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0000', endColorstr='#b8b8b8',GradientType=0);
+                background-color:#ff0000;
+            }
+            .myButton:active {
+                position:relative;
+                top:10px;
+            }
+
+        </style>
+    </head>
+    <body>
+    <center>  
+
+    	<div>
+        <form action = "http://localhost:12345/result" method = "POST">
+        	<div>
+        		<br><br><br><br><br><br><br><br><br><br>
+        <div>
+        <h1 id="time_input_label" class="label">Time from today: </h1>
+        <input  style="height:40px; font-size:14pt" type="number" name = "Days" id="time_input" class="input" /><br>
+
+    </div>
+
+    	<div>
+
+        <h1 id="stock_input_label" class="label">Id of Stock: </h1>
+        <input type="text" name = "Name" id="stock_input_label" class="input" style="height:40px; font-size:14pt"/><br>
+
+    </div>
+        <br /><br><br><br>
+        <div>
+        <button style="font-size:25px; height: 70px; width: 270px" href="#" class="myButton" type="submit" id="empFormSubmitBtn" onclick="">Predict</button>
+    </center></div>
+</form>
+</div>
+
+
+
+    </body>
+    
+</html>
