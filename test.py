@@ -19,7 +19,7 @@ def result():
       
       
       from rnn_robust import rnn_predict
-      code = rnn_predict(days)
+      code = rnn_predict(name, days)
       return code
       """
     code + render_template('results.html')
