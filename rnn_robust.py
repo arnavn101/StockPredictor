@@ -15,7 +15,8 @@ def rnn_predict(days_p, stock):
     from keras.layers import LSTM
     from keras.layers import Dropout
     from keras.callbacks import EarlyStopping, ReduceLROnPlateau, ModelCheckpoint, TensorBoard
-    
+    days_p = int(days_p)
+    stock = str(stock)
     
     # Importing the training set
     dataset_train = pd.read_csv('stocks.csv')
