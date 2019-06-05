@@ -73,7 +73,7 @@ def rnn_predict(days_p, stock):
     
     
     # Fitting the RNN to the Training set
-    regressor.fit(X_train, y_train, epochs = 100, batch_size = 32, callbacks=[es, rlr,mcp, tb],validation_split=0.2, verbose=1)
+    regressor.fit(X_train, y_train, epochs = 50, batch_size = 64, callbacks=[es, rlr,mcp, tb],validation_split=0.2, verbose=1)
     
     
     

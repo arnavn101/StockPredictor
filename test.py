@@ -20,10 +20,8 @@ def result():
       
       from rnn_robust import rnn_predict
       code = rnn_predict(days,name)
-      return code
-      """
-    code + render_template('results.html')
-      """
+      return render_template('results.html', value=code)
+      
       
 if __name__ == '__main__':
    app.run(host='127.0.0.1',port=12345)
