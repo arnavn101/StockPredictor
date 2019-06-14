@@ -9,7 +9,6 @@ app = Flask(__name__)
 
 dir_path = os.path.dirname(os.path.realpath(__file__))
 wb.open('file:///' + dir_path + "/templates/index.html", new=2)
-print(dir_path)
 
 @app.route('/')
 def data():
