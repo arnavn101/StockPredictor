@@ -1,12 +1,15 @@
 from flask import Flask, render_template, request
 import webbrowser as wb 
 import os
+import getpass
+
 from google_images_download import google_images_download
 response = google_images_download.googleimagesdownload()
 app = Flask(__name__)
 
-
-wb.open('file:///C:/Users/janak/Desktop/StockPredictor-master/templates/index.html', new=2)
+dir_path = os.path.dirname(os.path.realpath(__file__))
+wb.open('file:///' + dir_path + "/templates/index.html", new=2)
+print(dir_path)
 
 @app.route('/')
 def data():
