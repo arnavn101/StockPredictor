@@ -8,7 +8,7 @@ response = google_images_download.googleimagesdownload()
 app = Flask(__name__)
 
 dir_path = os.path.dirname(os.path.realpath(__file__))
-wb.open('file:///' + dir_path + "/templates/index.html", new=2)
+wb.open('file:///' + dir_path + "/templates/index2.html", new=2)
 
 @app.route('/')
 def data():
