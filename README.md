@@ -4,7 +4,10 @@ My  program is a stock predictor. When it is run, the program will automatically
 
 * It makes use of Keras, Sklearn modules and Flask integration to accomplish its task
 
-* This program can currently be run from only any interface with python installed.  
+* This program can currently be run from only any interface with python installed.
+
+* Based on a recurrent neural network architecture : https://en.wikipedia.org/wiki/Recurrent_neural_network
+
 
 Steps for Running the application:
 
