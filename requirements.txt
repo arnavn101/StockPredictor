@@ -1,0 +1,9 @@
+flask
+numpy
+pandas
+keras
+sklearn
+yahoo_fin
+plotly
+matplotlib
+yfinance
