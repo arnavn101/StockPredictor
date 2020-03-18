@@ -7,3 +7,6 @@ yahoo_fin
 plotly
 matplotlib
 yfinance
+pandas_datareader
+tensorflow==1.13.1
+requests_html
