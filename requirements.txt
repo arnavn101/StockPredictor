@@ -8,5 +8,5 @@ plotly
 matplotlib
 yfinance
 pandas_datareader
-tensorflow==1.13.1
+tensorflow==2.5.3
 requests_html
